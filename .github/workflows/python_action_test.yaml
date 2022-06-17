@@ -16,3 +16,5 @@ jobs:
           architecture: 'x64'
       - name: Get Python version
         run: python -V
+      - name: python test
+        run: python -m unittest -v
