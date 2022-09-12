@@ -17,4 +17,4 @@ jobs:
       - name: Get Python version
         run: python -V
       - name: python test
-        run: python -m unittest -v
+        run: python hello_python.py
