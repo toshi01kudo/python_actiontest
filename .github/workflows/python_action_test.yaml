@@ -17,4 +17,4 @@ jobs:
       - name: Get Python version
         run: python -V
       - name: python test
-        run: python hello_python.py
+        run: python -m unittest -v Testnumprint.py

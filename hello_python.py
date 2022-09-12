@@ -1,2 +1,2 @@
 print('Hello python!')
-raise Exception
+# raise Exception
